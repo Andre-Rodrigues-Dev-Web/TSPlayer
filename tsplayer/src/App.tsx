@@ -1,10 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//Componentes
+import{
+  Content,
+  Sidebar,
+  Template
+} from './Components/Sections/style'
 
-function App() {
+
+const App: React.FC = () => {
   return (
-    <></>
+    <Template>
+      <Sidebar>
+        
+      </Sidebar>
+      <Content>
+        
+      </Content>
+    </Template>
   );
 }
 
